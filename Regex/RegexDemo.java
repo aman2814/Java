@@ -10,7 +10,7 @@ class RegexDemo{
 		
 		//matches 10-digit numbers only
 		regexStr = "^[0-9]{10}$";
-		System.out.println(Pattern.matches(regexStr,"6576767"));
+		System.out.println(Pattern.matches(regexStr,"6576767"));k
 		System.out.println(Pattern.matches(regexStr,"9784561300"));
 		System.out.println(Pattern.matches(regexStr,"F784561300"));
 		
